@@ -9,6 +9,7 @@ A collection of [Claude Code](https://claude.com/claude-code) skills for coding 
 - **[karpathy-guidelines](karpathy-guidelines/SKILL.md)** — behavioral guidelines to reduce common LLM coding mistakes: avoid overcomplication, make surgical changes, surface assumptions, define verifiable success criteria.
 - **[debug-mantra](debug-mantra/SKILL.md)** — four-mantra debugging discipline: reproduce, trace the fail path, falsify the hypothesis, cross-reference every breadcrumb, before proposing any fix.
 - **[mentor-mode](mentor-mode/SKILL.md)** — Socratic, scaffold-don't-solve coaching style for walking a learner through writing their own code, question-by-question, instead of writing it for them.
+- **[issue-review-loop](issue-review-loop/SKILL.md)** — works through GitHub issues or sub-issues one at a time: a builder subagent implements each one, a reviewer subagent checks it, and they repeat until the review is clean, then the orchestrator verifies, commits and moves to the next issue.
 - **[handoff](handoff/SKILL.md)** — compacts the current conversation into a handoff document for another agent (or session) to pick up.
 
 ## Usage
